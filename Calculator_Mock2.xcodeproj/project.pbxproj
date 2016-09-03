@@ -14,6 +14,7 @@
 		082137AA1D6C74CE0094CBDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 082137A91D6C74CE0094CBDF /* Assets.xcassets */; };
 		082137AD1D6C74CE0094CBDF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 082137AB1D6C74CE0094CBDF /* LaunchScreen.storyboard */; };
 		082137B81D6C74CE0094CBDF /* Calculator_Mock2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 082137B71D6C74CE0094CBDF /* Calculator_Mock2Tests.swift */; };
+		08A2EFC31D6CAD5E001CB638 /* IMG_3206.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 08A2EFC21D6CAD5E001CB638 /* IMG_3206.JPG */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		082137B31D6C74CE0094CBDF /* Calculator_Mock2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_Mock2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		082137B71D6C74CE0094CBDF /* Calculator_Mock2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_Mock2Tests.swift; sourceTree = "<group>"; };
 		082137B91D6C74CE0094CBDF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		08A2EFC21D6CAD5E001CB638 /* IMG_3206.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_3206.JPG; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		0821379E1D6C74CE0094CBDF /* Calculator_Mock2 */ = {
 			isa = PBXGroup;
 			children = (
+				08A2EFC21D6CAD5E001CB638 /* IMG_3206.JPG */,
 				0821379F1D6C74CE0094CBDF /* AppDelegate.swift */,
 				082137A11D6C74CE0094CBDF /* ViewController.swift */,
 				082137A31D6C74CE0094CBDF /* Main.storyboard */,
@@ -184,6 +187,7 @@
 			files = (
 				082137AD1D6C74CE0094CBDF /* LaunchScreen.storyboard in Resources */,
 				082137AA1D6C74CE0094CBDF /* Assets.xcassets in Resources */,
+				08A2EFC31D6CAD5E001CB638 /* IMG_3206.JPG in Resources */,
 				082137A51D6C74CE0094CBDF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -394,6 +398,7 @@
 				082137BE1D6C74CE0094CBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		082137BF1D6C74CE0094CBDF /* Build configuration list for PBXNativeTarget "Calculator_Mock2Tests" */ = {
 			isa = XCConfigurationList;
@@ -402,6 +407,7 @@
 				082137C11D6C74CE0094CBDF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
