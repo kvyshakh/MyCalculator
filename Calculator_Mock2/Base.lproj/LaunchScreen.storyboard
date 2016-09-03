@@ -3,7 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
-        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -18,23 +17,31 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="IMG_3206.JPG" translatesAutoresizingMaskIntoConstraints="NO" id="ofT-gI-iv5">
-                                <rect key="frame" x="0.0" y="0.0" width="606" height="600"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Calculator Man" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FxE-LK-P6o">
-                                <rect key="frame" x="174" y="56" width="238" height="154"/>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="45"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" text="MyCalculator" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KbD-e7-iQ9">
+                                <rect key="frame" x="179" y="73" width="243" height="79"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="243" id="X9g-L8-8dR"/>
+                                </constraints>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1472960778_Calculator" translatesAutoresizingMaskIntoConstraints="NO" id="RJV-Xv-y1s">
+                                <rect key="frame" x="173" y="165" width="255" height="255"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="255" id="Vt7-1U-dZI"/>
+                                    <constraint firstAttribute="height" constant="255" id="XKB-GL-Bys"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="ofT-gI-iv5" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="LMx-BO-cys"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="ofT-gI-iv5" secondAttribute="trailing" constant="-26" id="Xym-wL-xYn"/>
-                            <constraint firstItem="ofT-gI-iv5" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="ZOe-YX-FV7"/>
-                            <constraint firstItem="ofT-gI-iv5" firstAttribute="bottom" secondItem="xb3-aO-Qok" secondAttribute="top" id="bqe-3a-vyy"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="RJV-Xv-y1s" secondAttribute="bottom" constant="180" id="0gE-6n-q3H"/>
+                            <constraint firstItem="RJV-Xv-y1s" firstAttribute="centerX" secondItem="KbD-e7-iQ9" secondAttribute="centerX" id="F7b-OY-x8S"/>
+                            <constraint firstItem="KbD-e7-iQ9" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="53" id="ShN-tB-8d9"/>
+                            <constraint firstItem="RJV-Xv-y1s" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dI8-By-nf7"/>
+                            <constraint firstItem="RJV-Xv-y1s" firstAttribute="top" secondItem="KbD-e7-iQ9" secondAttribute="bottom" constant="13" id="h3N-GB-NLb"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -44,6 +51,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="IMG_3206.JPG" width="1932" height="2576"/>
+        <image name="1472960778_Calculator" width="256" height="256"/>
     </resources>
 </document>
