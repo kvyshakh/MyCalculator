@@ -126,25 +126,28 @@ class ViewController: UIViewController {
     }
     
     @IBAction func equalsButtonPressed(sender: UIButton) {
-        operand2 = Double(displayText)
         
-        var result = 0.0
+        if (operation != nil) {
+            operand2 = Double(displayText)
         
-        if (operation! == "+") {
-            result = operand1! + operand2!
-        }
-        else if (operation! == "-") {
-            result = operand1! - operand2!
-        }
-        else if (operation! == "*") {
-            result = operand1! * operand2!
-        }
-        else if (operation! == "/") {
-            result = operand1! / operand2!
-        }
+            var result = 0.0
         
-        displayText = String(result)
-        refreshText()
+            if (operation! == "+") {
+                result = operand1! + operand2!
+            }
+            else if (operation! == "-") {
+                result = operand1! - operand2!
+            }
+            else if (operation! == "*") {
+                result = operand1! * operand2!
+            }
+            else if (operation! == "/") {
+                result = operand1! / operand2!
+            }
+        
+            displayText = String(result)
+            refreshText()
+        }
     }
     
     
