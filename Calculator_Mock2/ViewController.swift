@@ -118,12 +118,10 @@ class ViewController: UIViewController {
     }
     
     @IBAction func clearButtonPressed(sender: UIButton) {
-        displayText = ""
-        operand1 = nil
-        operand2 = nil
-        operation = nil
+        clear()
         refreshText()
     }
+    
     
     @IBAction func equalsButtonPressed(sender: UIButton) {
         
@@ -155,6 +153,12 @@ class ViewController: UIViewController {
         resultTextView.text = displayText
     }
     
+    func clear() {
+        displayText = ""
+        operand1 = nil
+        operand2 = nil
+        operation = nil
+    }
     
     
     
